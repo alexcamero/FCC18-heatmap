@@ -1,0 +1,30 @@
+body {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cell:hover {
+    fill: #0F0;
+  }
+  
+  #tooltip {
+    background-color: #7C7;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #tooltip h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  #tooltip p {
+    font-size: 12px;
+    margin: 0;
+  }
